@@ -390,3 +390,9 @@ class UneditableField(Field):
 
 class InlineField(Field):
     template = "%s/layout/inline_field.html"
+
+class Row(Div):
+    css_class = "form-row"
+
+class Col(Div):
+    css_class = "col"
